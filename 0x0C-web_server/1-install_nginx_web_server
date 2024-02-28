@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# Configures a new ubuntu machine by installing
+onfigures a new ubuntu machine by installing
 
 echo -e "Updating and installing Nginx.\n"
 sudo apt-get update -y -qq && \
