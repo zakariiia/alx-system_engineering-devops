@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# make your fix short and sweet.
-sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
-sudo service nginx restart
-kill -9 "$(cat /var/run/nginx.pid)"
+# script with the miniimum nbr of commands to automate your fix.
+cd /etc/nginx/sites-enabled/ || exit;
+rm default;
+ln -s /etc/nginx/sites-available/default default;
+service nginx restart
