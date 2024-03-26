@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-gather employee data from API
+gather the  employee data from API
 '''
 
 import re

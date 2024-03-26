@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""python script to fetch Rest API for todo lists of employees"""
+"""python script to fetch Rest API for to-do lists of employees"""
 
 import json
 import requests
